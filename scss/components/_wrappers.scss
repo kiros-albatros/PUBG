@@ -1,0 +1,49 @@
+.main-container {
+    max-width: 1450px;
+    //min-height: 810px;
+    margin: 100px auto;
+    border: 5px solid #404040;
+    border-radius: 25px;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-image: url("../img/background1.jpg");
+    background-color: rgba($color: #252525, $alpha: 1);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    @media (max-width: 2900px) {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    @media (max-width: 770px) {
+        margin: 100px auto;
+    }
+
+    @media (max-width: 550px) {
+        margin: 30px auto;
+    }
+
+    @include media-mobile {
+        margin: 5px auto;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+.game {
+    cursor: url("../aim.png"), pointer;
+}
+
+.hole {
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    background-image: url(../hole.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}

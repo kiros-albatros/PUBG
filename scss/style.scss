@@ -1,0 +1,15 @@
+@import "abstract/_constants.scss";
+@import "abstract/_mixins.scss";
+@import "_base.scss";
+
+//Components
+@import "components/_wrappers.scss";
+@import "components/_buttons.scss";
+
+//Layout
+@import "layout/_header.scss";
+@import "layout/_main.scss";
+@import "layout/_main__numbers.scss";
+@import "layout/_main__social.scss";
+@import "layout/_main__content.scss";
+@import "layout/_footer.scss";

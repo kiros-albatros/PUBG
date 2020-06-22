@@ -1,0 +1,37 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 2rem;
+    background-color: #2a2a2a;
+    font-family: $font-primary;
+    color: $color-text-grey;
+    padding: 0 5px;
+    background-image: url(../img/mainBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: "Nexa Rust Sans";
+    font-style: normal;
+    src: url("../fonts/NexaRustSans-Black.otf");
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: "Headliner";
+    font-style: normal;
+    src: url("../fonts/Headliner.ttf");
+}
+
+@font-face {
+    font-weight: normal;
+    font-family: "Myriad Pro";
+    font-style: normal;
+    src: url("../fonts/Myriad-Pro.otf");
+}

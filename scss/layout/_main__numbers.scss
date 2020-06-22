@@ -1,0 +1,22 @@
+.main__numbers {
+    position: absolute;
+    left: 3%;
+    top: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Myriad Pro";
+    font-size: 1.5rem;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.number-active {
+    color: $color-text-yellow;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 95px;
+    background-color: #404040;
+}

@@ -1,0 +1,89 @@
+.header__wrapper {
+    padding: 25px 0 10px 0;
+    display: flex;
+
+
+    @media (max-width: 1200px) {
+        padding: 25px 2% 10px 3%;
+    }
+
+    @media (max-width: 860px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @include media-mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.logo-container {
+    margin-right: 25%;
+
+    @media (max-width: 1200px) {
+        margin-right: 5%;
+    }
+
+    @media (max-width: 830px) {
+        margin-right: 2%;
+    }
+
+    @include media-tablet {
+        margin-bottom: 20px;
+    }
+
+    @include media-mobile {
+        margin-bottom: 20px;
+    }
+}
+
+.header__navigation {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    margin-right: 6%;
+
+    @include media-tablet {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 520px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @include media-mobile {
+        margin-bottom: 20px;
+    }
+}
+
+.navigation__link {
+    font-family: $font-menu;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    color: $color-text-grey;
+
+    &:hover {
+        color: $color-text-yellow;
+    }
+}
+
+.link-active {
+    color: $color-text-yellow;
+}
+
+.user__menu {
+    width: 290px;
+    display: flex;
+
+    @media (max-width: 520px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @include media-mobile {
+        margin-bottom: 20px;
+    }
+}

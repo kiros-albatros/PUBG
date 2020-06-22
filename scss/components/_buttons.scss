@@ -1,0 +1,62 @@
+.button {
+    border: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    border-radius: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.user__button {
+    background-color: #222222;
+    color: $color-text-grey;
+    padding: 5px 38px;
+
+    &:hover {
+        background-color: $color-text-yellow;
+        color: black;
+    }
+
+}
+
+.user__button:nth-of-type(1) {
+    margin-right: 20px;
+
+    @media (max-width: 520px) {
+        margin-bottom: 20px;
+    }
+}
+
+.button-colored {
+    color: black;
+    background-color: $color-text-yellow;
+}
+
+.main__button {
+    margin-top: 25px;
+    padding: 12px 95px 12px 20px;
+    border-radius: 30px;
+    background-color: $color-text-grey;
+    color: $color-text-yellow;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color-text-yellow;
+        color: black;
+    }
+}
+
+.play-icon {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: 2px;
+    right: 2px;
+    background-image: url(../img/yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

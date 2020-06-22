@@ -1,0 +1,31 @@
+.main__part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+    @include media-mobile {
+        margin-bottom: 30px;
+    }
+}
+
+.content-image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @include media-tablet {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+.main__image {
+    max-width: 500px;
+}
+
+.player-image {
+    @media (max-width: 1000px) {
+        max-width: 300px;
+    }
+}
